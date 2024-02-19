@@ -1,7 +1,7 @@
 <?php
 include("api.php");
 $a = new downloadgram();
-$botToken = 'YOUR TOKEN';
+$botToken = '6736774847:AAHB9gifPlp392O8zOXMzHOkUe0bA7P7IhY';
 $a->BotToken = $botToken;
 $update = json_decode(file_get_contents("php://input"), TRUE);
 
